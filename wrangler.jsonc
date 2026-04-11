@@ -24,7 +24,6 @@
   ],
   "r2_buckets": [
     {
-//      "bucket_name": "flare-stack-blog",
       "name": "flare-stack-blog",
       "binding": "R2",
       "remote": true
