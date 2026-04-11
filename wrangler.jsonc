@@ -10,21 +10,21 @@
   "keep_vars": true,
   "routes": [
     {
-      "pattern": "DOMAIN_PLACEHOLDER",
+      "pattern": "blog.buzhidao.de5.net",
       "custom_domain": true
     }
   ],
   "d1_databases": [
     {
       "binding": "DB",
-      "database_id": "D1_DATABASE_ID",
+      "database_id": "77572aff-76c7-4a62-9938-a56e47954a81",
       "migrations_dir": "migrations",
       "remote": true
     }
   ],
   "r2_buckets": [
     {
-      "bucket_name": "bucket-name-placeholder",
+      "bucket_name": "flare-stack-blog",
       "binding": "R2",
       "remote": true
     }
@@ -32,12 +32,12 @@
   "kv_namespaces": [
     {
       "binding": "KV",
-      "id": "KV_NAMESPACE_ID",
+      "id": "c661a16af4b8457a904e41336f42845d",
       "remote": true
     },
     {
       "binding": "OAUTH_KV",
-      "id": "KV_NAMESPACE_ID",
+      "id": "c661a16af4b8457a904e41336f42845d",
       "remote": true
     }
   ],
