@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "my-blog",
+  "name": "flare-stack-blog",
   "compatibility_date": "2026-02-17",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
   "main": "./src/server.ts",
@@ -24,7 +24,7 @@
   ],
   "r2_buckets": [
     {
-      "name": "flare-stack-blog",
+      "bucket_name": "flare-stack-blog",
       "binding": "R2",
       "remote": true
     }
